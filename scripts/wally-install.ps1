@@ -1,5 +1,5 @@
 wally install
-rojo sourcemap chat.project.json | Out-File -Encoding ASCII -FilePath sourcemap.json
+rojo sourcemap demo.project.json | Out-File -Encoding ASCII -FilePath sourcemap.json
 wally-package-types --sourcemap sourcemap.json Packages/
 wally-package-types --sourcemap sourcemap.json DevPackages/
 
