@@ -14,25 +14,22 @@
 		},
 		"ReplicatedStorage": {
 			"DevPackages": {
-				"$path": "DevPackages"
-			},
-			"Packages": {
-				"$path": "Packages",
-				"LibraryName": {
+				"$className": "Folder",
+				"_Index": {
+					"$path": "DevPackages/_Index"
+				},
+				"fireEvent": {
 					"$path": "src"
+				},
+				"React": {
+					"$path": "DevPackages/React.lua"
+				},
+				"ReactRoblox": {
+					"$path": "DevPackages/ReactRoblox.lua"
 				}
 			},
 			"Demo": {
-				"$path": "demo/shared"
-			}
-		},
-		"ServerScriptService": {
-			"$path": "demo/server"
-		},
-		"StarterPlayer": {
-			"$className": "StarterPlayer",
-			"StarterPlayerScripts": {
-				"$path": "demo/client"
+				"$path": "demo"
 			}
 		}
 	}
